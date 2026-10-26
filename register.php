@@ -15,16 +15,22 @@ Password<input type="password" name="password" minlength="8" required><br>
 <?php
 require __DIR__ . '/db.php';
 
+$message = '';
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name= trim($_POST['username']);
-    $email= trim($_POST['email']);
-    $password= trim($_POST['password']);
+    $name= trim($_POST['username'] ?? '');
+    $email= trim($_POST['email'] ?? '');
+    $password= $_POST['password'] ?? '';
+
+    
+
     $hpassword=password_hash($password,PASSWORD_DEFAULT);
 
+    
     $stmt = $pdo->prepare("INSERT INTO users (username,email,password) VALUES (?, ?,?)");
     $stmt->execute([$name, $email, $hpassword]);
 
-
+    $message = "Registration successful";
 }
 ?>
 
