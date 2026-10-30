@@ -25,3 +25,7 @@ CONCLUSION:
 An API key is used for security reasons and since the project mainly focused on backend concepts and security, the CSS part was mostly handled by some prompts. 
 Because this is a practice project, you have to run it on your own system.Also, by the time you see this repository it may have changed multiple times, or it may 
 be preserved as my first functional GitHub repository. That depends completely on my mood.
+
+
+
+
