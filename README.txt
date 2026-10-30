@@ -22,7 +22,6 @@ The main.py file has to be run manually to inspect logs and look at threats.
 You can also set main.py to run automatically at regular intervals, but for a personal experimental project I decided to keep that in my own hands.
 
 CONCLUSION:
-An API key is used for security reasons. Because this is a practice project, you have to run it on your own system.
- Also, by the time you see this repository it may have changed multiple times, or it may be preserved as my first functional GitHub repository. 
- That depends completely on my mood.
-
+An API key is used for security reasons and since the project mainly focused on backend concepts and security, the CSS part was mostly handled by some prompts. 
+Because this is a practice project, you have to run it on your own system.Also, by the time you see this repository it may have changed multiple times, or it may 
+be preserved as my first functional GitHub repository. That depends completely on my mood.
